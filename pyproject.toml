@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "model_service"
+version = "0.1.0"
+description = ""
+authors = ["svtter <svtter@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+model-builder = {path = "../model_builder", develop = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
